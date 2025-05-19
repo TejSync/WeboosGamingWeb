@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Weboos Gaming</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Weboos.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="icon" type="image/x-icon" href="Logo_weboos.png">
+
+
+    </head>
+    <body>
+        <header>    
+            <a href="#" class="logo">Weboos<br>Gaming</a>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="action">
+               <div class="searchbx">
+                <a href="#"><i class='bx bx-search'></i></a>
+                <input type="text" placeholder="Search Games">
+               </div>
+            </div>
+            <div class="toggleMenu" onclick="toggleMenu();"></div>
+        </header>
+
+
+        
+        <!-- Banner Page -->
+        <div class="banner" id="home">
+            <div class="bg">
+                <div class="content">
+                    <h2> Gaming for EveryOne &<br> Gaming for You </h2>
+                    <p>Welcome to our thrilling gaming universe! Get ready to embark on epic adventures, conquer challenging quests, and connect with fellow gamers from around the globe. Dive into a world brimming with excitement, where every click brings you closer to victory. Whether you're a seasoned pro or a novice explorer, there's something for everyone here. Join us and unleash your gaming passion today!</p>
+                    <a href="#" class="btn"> Join Now</a>
+                </div>
+                <img src="Weboos_all_images/1329210.png" alt="">
+            </div>
+        </div>
+
+        <!-- About -->
+        <div class="about" id="about">
+            <div class="contentbx">
+                <h2> About Us</h2>
+                <p>Welcome to our gaming haven, where pixels meet passion and players unite! At Weboos Gaming, we're dedicated to fueling your gaming adventures with a vibrant community, immersive experiences, and a plethora of titles to explore. Dive into our virtual realm, where fun knows no bounds and every click is an adventure. Whether you're a casual gamer or a seasoned pro, there's always a place for you here. Join us and let's embark on epic quests together!
+                </p>
+                <a href="#">Read more</a>
+            </div>
+            <img src="Weboos_all_images/valos.png" alt="">
+        </div>
+
+        <!-- Games -->
+        <div class="Games" id="games">
+            <h2>Popular Games</h2>
+            <ul>
+                <li class="list active" data-filter="all"> All</li>
+                <li class="list" data-filter="pc"> PC Games</li>
+                <li class="list" data-filter="mobile"> Mobile Games</li>
+            </ul>
+            <div class="cardbx">
+                <div class="card" data-item="pc">
+                    <img src="Weboos_all_images/Grand_Theft_Auto_V.png" alt="">
+                    <div class="content">
+                        <h4>Grand Theft Auto V</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>₹ 850.00</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="Weboos_all_images/Red_Dead_Redemption_II.jpg" alt="">
+                    <div class="content">
+                        <h4>Red Dead Redemption 2</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>₹ 850.00</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="Weboos_all_images/God_of_War_4_cover.jpg" alt="">
+                    <div class="content">
+                        <h4>God of War</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>₹ 850.00</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="Weboos_all_images/Cyberpunk_2077_box_art.jpg" alt="">
+                    <div class="content">
+                        <h4>Cyberpunk 2077</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>₹ 850.00</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="Weboos_all_images/Spider-Man_Miles_Morales.jpeg" alt="">
+                    <div class="content">
+                        <h4>Spider-Man: Miles Morales</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>₹ 850.00</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="Weboos_all_images/Cover_Art_of_Metro_Exodus.png" alt="">
+                    <div class="content">
+                        <h4>Metro Exodus</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>₹ 850.00</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="Weboos_all_images/Forza_Horizon_5_cover_art.jpg" alt="">
+                    <div class="content">
+                        <h4>Forza Horizon 5</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>₹ 850.00</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="Weboos_all_images/Far_Cry_5_boxshot.jpg" alt="">
+                    <div class="content">
+                        <h4>Far Cry 5</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>₹ 850.00</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="Weboos_all_images/Minecraft_cover.png" alt="">
+                    <div class="content">
+                        <h4>Minecraft</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>₹ 850.00</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="mobile">
+                    <img src="Weboos_all_images/Pokemon_Go.png" alt="">
+                    <div class="content">
+                        <h4>Pokémon Go</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>₹ 850.00</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="mobile">
+                    <img src="Weboos_all_images/CODM_logo.png" alt="">
+                    <div class="content">
+                        <h4>Call of Duty: Mobile</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>₹ 850.00</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="mobile">
+                    <img src="Weboos_all_images/Marvel_Snap.png" alt="">
+                    <div class="content">
+                        <h4>Marvel Snap</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>₹ 850.00</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Gaming-Gallery -->
+        <div class="Gallery" id="gallery">
+            <h2>#GalleryForAll</h2>
+            <div class="boxbx">
+                <div class="box">
+                    <img class="watch"src="Weboos_all_images/all_the_gallery_images/960x0.webp" alt="">
+                  </div>
+                  
+                  <div class="box">
+                    <img class="watch"src="Weboos_all_images/all_the_gallery_images/cyberpunk_2077_female_v_minimalist_4k_hd_games-t2.jpg" alt="">
+                  </div>
+
+                  <div class="box">
+                    <img class="watch"src="Weboos_all_images/all_the_gallery_images/wp2614869.jpg" alt="">
+                  </div>
+
+                  <div class="box">
+                    <img class="watch"src="Weboos_all_images/all_the_gallery_images/wp2645102.jpg" alt="">
+                  </div>
+
+                  <div class="box">
+                    <img class="watch"src="Weboos_all_images/all_the_gallery_images/wp2836828.jpg" alt="">
+                  </div>
+                  
+                  <div class="box">
+                    <img class="watch"src="Weboos_all_images/all_the_gallery_images/wp2695350.jpg" alt="">
+                  </div>
+
+                  <div class="box">
+                    <img class="watch"src="Weboos_all_images/all_the_gallery_images/wp2836958.jpg" alt="">
+                  </div>
+
+                  <div class="box">
+                    <img class="watch"src="Weboos_all_images/all_the_gallery_images/wp2717523.jpg" alt="">
+                  </div>
+
+                  <div class="box">
+                    <img class="watch"src="Weboos_all_images/all_the_gallery_images/HD-wallpaper-video-game-genshin-impact-aether-genshin-impact-ganyu-genshin-impact.jpg" alt="">
+                  </div>
+
+                  <div class="box">
+                    <img class="watch"src="Weboos_all_images/all_the_gallery_images/wp12676355.jpg" alt="">
+                  </div>
+
+                  <div class="box">
+                    <img class="watch"src="Weboos_all_images/all_the_gallery_images/uwp4279338.webp" alt="">
+                  </div>
+
+                <div class="box">
+                  <img class="watch"src="Weboos_all_images/all_the_gallery_images/uwp4279348.webp" alt="">
+                </div>
+            </div>
+        </div>
+
+<!-- Contact Us Page -->
+        <div class="contact" id="contact">
+            <img src="./Weboos_all_images/contact_us_img.png" alt="">
+            <div class="form">
+                <h1>Contact Us</h1>
+                <form action="gg.html">
+                <div class="inputbx">
+                    <p>Enter your Name: </p>
+                    <input type="text" placeholder="eg: John Markus">
+                </div>
+
+                <div class="inputbx">
+                    <p>Enter your Email: </p>
+                    <input type="text" placeholder="name@mail.com">
+                </div>
+
+                <div class="inputbx">
+                    <p>Messages: </p>
+                    <textarea name="" placeholder="Type here..."></textarea>
+                </div>
+
+                <div class="inputbx">
+                    <input type="Submit" name="Submit">
+                </div>
+                </form>
+            </div>
+        </div>
+
+<!-- Footer -->
+<footer>
+        <div class="info">
+            <a href="#" class="logo" >Weboos Gaming</a>
+            <p><i class='bx bx-copyright'></i>2024 All Rights Reserved</p>
+            <ul>
+                <li><a href="#"></a><i class='bx bxl-facebook-circle'style='color:#1a48ef'></i></li>
+                <li><a href="#"></a><i class='bx bxl-instagram' style='color:#fff'></i></li>
+                <li><a href="#"></a><i class='bx bxl-twitter' style='color:#1aeeef'></i></li>
+                <li><a href="#"></a><i class='bx bxl-youtube' style='color:#ea0b0b'  ></i></li>
+            </ul>
+        </div>
+</footer>
+        <script>
+            /*Sticky Navbar */
+            window.addEventListener('scroll',function(){
+                var header = document.querySelector('header');
+                header.classList.toggle('sticky',window.scrollY > 0);
+            });
+
+            /*Responsive Navbar*/
+
+            function toggleMenu(){
+                const toggleMenu = document.querySelector('.toggleMenu');
+                const nav = document.querySelector('.nav');
+                toggleMenu.classList.toggle('active')
+                nav.classList.toggle('active')
+            }
+
+            /*filterable cards*/
+            let list=document.querySelectorAll('.list');
+            let card=document.querySelectorAll('.card');
+
+            for(let i=0; i<list.length; i++){
+                list[i].addEventListener('click',function()
+                {
+                    for(let j=0; j<list.length; j++){
+                list[j].classList.remove('active');
+                }
+                this.classList.add('active');
+                
+                    let dataFilter= this.getAttribute('data-filter');
+                
+                for( let k=0; k<card.length; k++)
+                {
+                    card[k].classList.remove('active');
+                    card[k].classList.add('hide');
+
+                    if(card[k].getAttribute('data-item')== dataFilter || dataFilter == 'all'){
+                        card[k].classList.remove('hide');
+                        card[k].classList.add('active');
+                    }
+                }
+            })
+        }
+        </script>
+    </body>
+</html>
