@@ -1,4 +1,4 @@
-# WeboosGamingWeb - 🎮 Gaming Website
+# WeboosGaming - 🎮 Gaming Website
 
 A responsive and user-friendly gaming website built with **HTML**, **CSS**, and **JavaScript**. The site allows users to explore games categorized by platform (PC, Mobile, etc.) through an interactive gallery with dynamic filtering.
 
